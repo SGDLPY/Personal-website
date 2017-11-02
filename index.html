@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>个人网站</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel='stylesheet' type='text/css' href="css/bootstrap.css" />
+		<link rel='stylesheet' type='text/css' href="css/style.css" />
+		<link rel="shortcut icon" href="images/logo-1.png" />	
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event) {
+					event.preventDefault();
+					$('html,body').animate({
+						scrollTop: $(this.hash).offset().top
+					}, 1000);
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--start-banner-->
+		<div class="banner" id="home">
+			<div class="container">
+				<div class="banner-top">
+					<a class="zp" href="index.html"><img src="images/Photo1.jpg" alt="" /></a>
+					<p>人所缺乏的不是才干而是志向，不是成功的能力而是勤劳的意志。</p>
+					<div class="dwn">
+						<a href="#about" class="scroll"><img src="images/dwn-arw.png" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end-banner-->
+		
+		<!--start-about-->
+		<div class="about" id="about">
+			<div class="container">
+				<div class="about-main">
+					<h3>ABOUT ME</h3>
+					<p>我叫张剑，今年22岁，来自山西运城，现住于北京海淀。</p>
+					<p>我是一名前端工程师，2014年开始了解前端，2015年8月份进入辽宁禾丰牧业股份有限公司，
+						开始了我的前段生涯。2016年7月份来到北京，到现在有两年的工作经验。</p>
+				</div>
+			</div>
+		</div>
+		<!--end-about-->
+		<!--start-services-->
+		<div class="Skill">
+			<div class="container">
+				<div class="Skill-mian">
+					<h3>My skills</h3>
+					<div>
+						<i>HTML5:</i><p><span style="width: 95%;"></span></p>
+					</div>
+					<div>
+						<i>CSS3:</i><p><span style="width: 90%;"></span></p>
+					</div>
+					<div>
+						<i>javascript:</i><p><span style="width: 80%;"></span></p>
+					</div>
+					<div>
+						<i>jQuery:</i><p><span style="width: 80%;"></span></p>
+					</div>
+					<div>
+						<i>Bootstrap:</i><p><span style="width: 60%;"></span></p>
+					</div>
+					<div>
+						<i>PhP:</i><p><span style="width: 30%;"></span></p>
+					</div>
+					<div>
+						<i>less,vue:</i><p><span style="width: 30%;"></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end-services-->
+		<!--start-what-->
+		<div class="what">
+			<div class="container">
+				<div class="what-mian">
+					<h3>My skills</h3>
+					<div class="container">
+					    <div class="portfolio-grids">
+						    <div class="portfolio-grid col-md-4">
+							    <a href="https://sgdlpy.github.io/tencent/index.html" target="_blank">
+							    	<img src="./images/monitr1.png">
+							    </a>
+							    <p>仿腾讯官网</p>
+							    <a class="rightarrow" href="https://sgdlpy.github.io/tencent/index.html" target="_blank">
+							    	<span></span>
+							    </a>
+						    </div>
+						  	<div class="portfolio-grid col-md-4">
+							  	<a href="http://www.zgcxueyuan.com/" target="_blank">
+							  		<img src="./images/monitr2.png">
+							  	</a>
+							  	<p>景秀教育</p>
+							  	<a class="rightarrow" href="http://www.zgcxueyuan.com/" target="_blank"><span> </span></a>
+						  	</div>
+							<div class="portfolio-grid col-md-4">
+								<a href="http://www.wellhope-ag.com/" target="_blank"><img src="./images/monitr3.png"></a>
+								<p>禾丰牧业</p>
+								<a class="rightarrow" href="http://www.wellhope-ag.com/" target="_blank"><span> </span></a>
+						  	</div>
+							<div class="clear"> </div>
+					  </div>
+					  <a class="portdown scroll" href="#contact"><span></span></a>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<!--end-what-->
+		<!--start-contact-->
+		<div class="contact">
+			<div class="container">
+				<div class="contact-main">
+					<h3>Contact me</h3>
+					<div class="contact-me clearfix">
+						<div class="pic">
+							<img src="images/weixin.jpg" />
+							<p>微信</p>
+						</div>
+						<div class="pic">
+							<img src="images/QQ.jpg" />
+							<p>Q Q</p>
+						</div>
+						<div class="way">
+							<p>电话：17600252564</p>
+							<p>邮箱：17600252564@163.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end-contact-->
+	</body>
+</html>
