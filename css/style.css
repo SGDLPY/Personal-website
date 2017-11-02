@@ -1,12 +1,7 @@
 /*--banner-Part-Starts-Here--*/
 .banner{
 	background:url(../images/banner.jpg) no-repeat;
-	min-height:100vh;
-}
-.banner-1{
-	background:url(../images/banner.jpg) no-repeat;
-	background-size:100% 100%;
-	min-height:500px;
+	height:100vh;
 }
 .banner-top {
   text-align: center;
