@@ -1,7 +1,7 @@
 /*--banner-Part-Starts-Here--*/
 .banner{
 	background:url(../images/banner.jpg) no-repeat;
-	min-height:680px;
+	min-height:100vh;
 }
 .banner-1{
 	background:url(../images/banner.jpg) no-repeat;
